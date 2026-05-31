@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:lightyellow;
+}
+header{
+	background-color:lightyellow;
+	height: 50px;
+	min-height: 180px;
+	font-family: Stack Sans Text;
+	font-size: 30px;
+	color:burlywood;
+	text-align: center;
+	line-height: 160px;
+	
+}
+.shape{
+	position: absolute;
+	image-orientation: flex;
+	max-width:45px;
+	max-height: 75px;
+}
+form {
+	
+	white-space: pre-line;
+}
+fieldset{
+	font-family: Stack Sans Text;
+	
+	background-color:white;
+	border-color: transparent;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 20px;
+}

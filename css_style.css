@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.text{
+		font-family:"stack Sans Text" , sans-serrif;
+		font-style:normal;
+	    text-indent: 40px;
+		font-size:2.5vh;
+	}
+	
+.logo{
+		font-family:"Stack sans text" , sans-serrif;
+		font-style:normal;
+		font-size:9vh;
+	}
+
+
+
+#banner{
+	width:100%; 
+	max-width: 100%;
+	height:160px; 
+	background-color:lightgoldenrodyellow;
+}
+
+#schooling{
+	width:100%; 
+	height:100%
+}
+
+#statement{
+	display: flex;
+	white-space:30%;
+	height: 100%;
+	min-height: 270px;
+	max-height: 520px;
+	width: 100%;
+	max-width: 100%;
+	background-color:#80D7B3;
+	border: 1px transparent;
+	border-radius: 20px;
+}
+
+.text{
+
+	padding:20px;
+	flex:1;
+	box-sizing: border-box;
+
+}
+
+
+#math1{
+	width:500px; 
+	height:auto;
+	display:contents;
+	float: left;
+	border-radius: 20px;
+}
+
+#math1 img{
+	border-radius: 20px;
+}
+
+#reading1{
+	width:500px; 
+	height:auto;
+	display:contents;
+	float: left;
+	border-radius: 20px;
+}
+
+#reading1 img{
+	border-radius: 20px;
+}
+#subtext{
+	padding:10px;
+	min-height:50%;
+	height:300px; 
+	max-height: 500px;
+	width:500px;
+	max-width: 700px;
+	font-family:'Stack Sans text';
+	float: left;
+}
+
+#subtext2{
+	padding:10px;
+	min-height: 50%;
+	height:300px; 
+	max-height: 500px;
+	width:500px;
+	max-width: 700px;
+	font-family:'Stack Sans text';
+	float: left;
+}
+
+
+
+
+.button{
+	
+}
+
+.pic{
+	left:0%; 
+	top:20%; 
+	width:100%; 
+	height:100%
+}
+
+.logo{
+	position:absolute; 
+	left:30px; 
+	top:20px;
+	color:white;
+}
+#title{
+	position:absolute; 
+	font-family:'Stack Sans text';
+	font-size:70px;
+	left:30px; 
+	margin-top:-90px;
+	color:white;
+}
+
+
+.subjectwrap{
+	display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  margin: 3rem auto;
+  width: min(1100px, 92%);
+}
+@media (max-width: 700px) {
+  .subjectwrap {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+footer{
+
+
+	text-align:center;
+	border-radius: 10px;
+	background-color:cornflowerblue;
+}
+
+#future{
+	color:white; 
+	font-size:6vh; 
+	font-family:'Stack Sans text';
+	
+}
+
+#sign{
+	font-size:6vh;
+	background-color:deepskyblue;
+	border-radius: 20px;
+	padding:10px;
+}
+#signtext{
+	font-size:3vh;
+	background-color:deepskyblue;
+	border-radius: 20px;
+	padding:10px;
+}
+
+.sparks{
+	display:inline-flex;
+}

@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+header{
+	background-color:lightskyblue;
+	height: 50px;
+	min-height: 180px;
+	font-family: Stack Sans Text;
+	font-size: 30px;
+	color:aliceblue;
+	text-align: center;
+	line-height: 160px;
+}
+.space{
+	background-color: white;
+	height:100px;
+	max-height: 100px;
+}
+.shape{
+	position: absolute;
+	image-orientation: flex;
+	max-width:45px;
+	max-height: 75px;
+}
+
+#m{
+	top: 250px;
+	
+}
+#s{
+	top: 470px;
+	
+}
+#r{
+	top: 650px;
+}
+#act{
+	top: 870px;
+	
+	max-width: 85px;
+}
+section { 
+	border-radius:10px;
+	background-color:dodgerblue;
+	min-height: 180px;
+	height: 40px;
+	max-height: 50px;
+	font-family: Stack Sans Text;
+	text-align: center;
+	color:aliceblue
+}
+.sectionheader {
+	font-size: 30px;
+	line-height:40px;
+}
+.sectext{
+	
+}
